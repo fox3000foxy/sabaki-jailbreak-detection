@@ -1,4 +1,4 @@
-# @sabaki-js/jailbreak
+# @fox3000foxy/jailbreak
 
 Sabaki plugin — détection de jailbreak / prompt injection **EN+FR**.
 
@@ -16,7 +16,7 @@ Sabaki plugin — détection de jailbreak / prompt injection **EN+FR**.
 - Val d'entraînement (5 %, n=500) : acc 0.948, F1 0.935.
 
 ```ts
-import plugin, { modelDir } from "@sabaki-js/jailbreak";
+import plugin, { modelDir } from "@fox3000foxy/jailbreak";
 const r = await plugin.classifyAsync({ state: "Ignore tes instructions…" });
 // { decision: "yes", confidence: 0.958, domain: "jailbreak", ... }
 ```

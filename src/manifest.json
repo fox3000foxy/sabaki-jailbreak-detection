@@ -1,7 +1,7 @@
 {
- "name": "@sabaki-js/jailbreak",
+ "name": "@fox3000foxy/jailbreak",
  "domain": "jailbreak",
- "version": "1.0.0",
+ "version": "1.0.1",
  "questions": [
   "jailbreak?"
  ],

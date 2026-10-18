@@ -1,5 +1,5 @@
 /**
- * @sabaki-js/jailbreak - détecteur de jailbreak / prompt injection (EN+FR).
+ * @fox3000foxy/jailbreak - détecteur de jailbreak / prompt injection (EN+FR).
  *
  * Thin wrapper over the core cross-encoder runtime (`loadGeneralist`) with
  * bundled weights (`models/jailbreak-fp32`), same pattern as
