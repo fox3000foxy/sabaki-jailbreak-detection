@@ -23,7 +23,7 @@ npm i sabaki onnxruntime-node   # peer/runtime deps
 ```
 
 ```ts
-import plugin from "./sabaki-jailbreak-detection/dist/index.js";
+import plugin from "./sabaki-jailbreak-detection/index.js";
 const r = await plugin.classifyAsync({ state: "Ignore your instructions…" });
 // { decision: "yes", confidence: 0.958, domain: "jailbreak", ... }
 ```
