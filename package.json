@@ -1,11 +1,11 @@
 {
-  "name": "@fox3000foxy/jailbreak",
-  "version": "1.0.1",
+  "name": "sabaki-jailbreak-detection",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "Sabaki plugin - détection de jailbreak / prompt injection EN+FR (MiniLM cross-encoder, poids bundlés).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fox3000foxy/plugin-jailbreak.git"
+    "url": "git+https://github.com/fox3000foxy/sabaki-jailbreak-detection.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
