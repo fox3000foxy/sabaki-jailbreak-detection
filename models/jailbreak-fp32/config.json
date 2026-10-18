@@ -1,0 +1,85 @@
+{
+ "base": "sentence-transformers/all-MiniLM-L6-v2",
+ "format": "question [SEP] option [SEP] state, argmax(score)",
+ "report": {
+  "trustair:regular": {
+   "n": 211,
+   "acc": 0.905,
+   "P": 0.5,
+   "R": 0.453,
+   "F1": 0.475
+  },
+  "jackhhao:train": {
+   "n": 42,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "octavio:train:injection-attack-detection": {
+   "n": 46,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "trustair:jailbreak_2023_05_07": {
+   "n": 24,
+   "acc": 0.958,
+   "P": 0.5,
+   "R": 0.479,
+   "F1": 0.489
+  },
+  "gen": {
+   "n": 54,
+   "acc": 0.981,
+   "P": 0.98,
+   "R": 0.983,
+   "F1": 0.981
+  },
+  "octavio:test:multilingual": {
+   "n": 8,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "trustair:jailbreak_2023_12_25": {
+   "n": 56,
+   "acc": 0.946,
+   "P": 0.5,
+   "R": 0.473,
+   "F1": 0.486
+  },
+  "octavio:test:injection-attack-detection": {
+   "n": 21,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "octavio:train:multilingual": {
+   "n": 26,
+   "acc": 0.962,
+   "P": 0.5,
+   "R": 0.481,
+   "F1": 0.49
+  },
+  "jackhhao:test": {
+   "n": 12,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "_all": {
+   "n": 500,
+   "acc": 0.948,
+   "P": 0.921,
+   "R": 0.952,
+   "F1": 0.935
+  },
+  "_srcF1": 0.769
+ },
+ "model": "sabaki-jailbreak-mini-v1"
+}
