@@ -1,7 +1,7 @@
 {
  "name": "sabaki-jailbreak-detection",
  "domain": "jailbreak",
- "version": "1.1.2",
+ "version": "1.1.3",
  "questions": [
   "jailbreak?"
  ],
@@ -25,9 +25,5 @@
  "modes": {
   "mini": "cross-encoder MiniLM-L6 ONNX fp32 bundlé (1 forward/option, argmax) - EN+FR, modèle interchangeable (env SABAKI_JAILBREAK_DIR)"
  },
- "notes": "Spécialiste anti-jailbreak EN+FR (10 259 lignes train). Éval tenue à l'écart : EN acc 0.925 / FR acc 0.955 / global 0.940.",
- "languages": [
-  "en",
-  "fr"
- ]
+ "notes": "Spécialiste anti-jailbreak EN+FR (10 259 lignes train). Éval tenue à l'écart : EN acc 0.925 / FR acc 0.955 / global 0.940."
 }
