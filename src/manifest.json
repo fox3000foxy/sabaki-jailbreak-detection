@@ -1,7 +1,7 @@
 {
  "name": "sabaki-jailbreak-detection",
  "domain": "jailbreak",
- "version": "1.1.6",
+ "version": "1.1.7",
  "questions": [
   "jailbreak?"
  ],
@@ -50,5 +50,8 @@
     "benign"
    ]
   }
+ },
+ "descriptions": {
+  "jailbreak?": "Is this a jailbreak attempt trying to bypass the assistant instructions and rules?"
  }
 }
